@@ -13,10 +13,10 @@
 </ion-content>
 <ion-content>
   <p>Ingrese su correo electronico</p>
-  <input #emailInput type="text" placehlder="correo"/>
+  <input #emailInput type="email" placehlder="correo"/>
   <p>Ingrese su contraseña</p>
   <input #passwordInput type="password"/>
-  <ion-button 
+  <ion-button (click)="login()"
   class="text-white bg-skyblue-700 hover:bg-skyblue-800">
   Inicio sesión</ion-button>
 </ion-content>
